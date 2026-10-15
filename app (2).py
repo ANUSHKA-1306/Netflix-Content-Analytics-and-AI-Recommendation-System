@@ -15,6 +15,3 @@ st.line_chart(df["release_year"].value_counts().sort_index())
 st.subheader("Movies vs TV_Shows")
 st.bar_chart(df["type"].value_counts())
 
-# Code to trigger the download
-
-files.download("app.py")
