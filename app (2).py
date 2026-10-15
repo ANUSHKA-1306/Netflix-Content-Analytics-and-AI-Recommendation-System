@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("/content/archive.zip")
+df = pd.read_csv("archive.zip")
 st.set_page_config(page_title="Netflix Recommendation Dashboard", layout="wide")
 
 st.title("Netflix Recommendation Dashboard")
