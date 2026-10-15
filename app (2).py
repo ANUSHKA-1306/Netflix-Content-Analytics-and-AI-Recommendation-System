@@ -16,5 +16,5 @@ st.subheader("Movies vs TV_Shows")
 st.bar_chart(df["type"].value_counts())
 
 # Code to trigger the download
-from google.colab import files
+
 files.download("app.py")
